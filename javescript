@@ -7,8 +7,8 @@
   <script type="txet/javascript">
     $(function(){
       $("#toggle").on("cilik",function()){
-        $("#target").fadeToggle("snow");
-        });
+        $("#target").fadeToggle("slow");
+       });
       });
       
     </script>
