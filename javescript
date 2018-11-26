@@ -6,11 +6,15 @@
   <script type="text/javascript" src="http:/code.jquery-3.2.1.min.js"></script>
   <script type="txet/javascript">
     $(function(){
-      $("p").css("color","red");
+      $("#toggle").on("cilik",function()){
+        $("#target").fadeToggle("snow");
+        });
       });
+      
     </script>
 </head>
 <body>
-  <p>てすと</p>
+  <div id="target">表示非表示される要素</div>
+  <button id="toggle">切り替え</button>
 </body>
 </html>
